@@ -1,0 +1,35 @@
+
+.main-df{
+  display: flex;           /* establish flex container */
+   flex-direction: column;  /* make main axis vertical */
+   justify-content: center; /* center items vertically, in this case */
+   align-items: center;     /* center items horizontally, in this case */
+   height: 300px;
+   font-family:Nunito Sans;
+}
+.nametitle{
+  font-family:Nunito Sans;
+}
+
+ul{
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  
+  
+}
+
+li a {
+  display: block;
+  padding: 30px;
+  text-decoration: none;
+  font-family:Nunito Sans;
+  color: black;
+  font-size: 20px;
+}
