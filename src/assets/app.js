@@ -1,9 +1,20 @@
-class AppNavbar extends HTMLElement {
-  constructor(){
-    super();
-    this.attachShadow({mode:"open"});
-    this.shadowRoot.innerHTML = `<h2> Hello World</h2>`
-  }
+const darkbtn = document.getElementById('dark');
+const lightbtn = document.getElementById('light');
+const body = document.body;
+
+const theme = localStorage.getItem('theme');
+if(theme){
+  body.classList.add(theme);
+}
+darkMode = () => {
+  body.classList.replace('light','dark');
+  localStorage.setItem('theme','dark')
+
 }
 
-window.customElements.define("app-navbar",AppNavbar)
+lightMode = () => {
+  body.classList.replace('dark','light');
+  localStorage.setItem('theme','light')
+
+
+}

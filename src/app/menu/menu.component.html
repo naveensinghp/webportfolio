@@ -1,18 +1,28 @@
-<div id="particles-js"></div>
+<mat-card>
 
-<div>
-  <ul>
-    <li><a href="#home"> Home</a></li>
-    <li><a href="#skills"> Skills</a></li>
-    <li><a href="#blog"> Blog</a></li>
-    <li><a href="#contact"> Contact</a></li>
-  </ul>
-</div>
-<div id="hero">
-  <div>
-    <h1 style="font-size: 50px;">
-      NaveenSingh
-  </h1>
+  <div class="darkside">
+    <mat-icon *ngIf="!showIcon"
+    id="dark"
+    onclick="darkMode()"
+    (click)="showIcon =! showIcon"
+  >wb_sunny</mat-icon>
+  
+  <mat-icon *ngIf="showIcon"
+  id="light"
+  onclick="lightMode()"
+  (click)="showIcon =! showIcon"
+  >brightness_3</mat-icon>
+  </div>
+ 
+
+</mat-card>
+
+<!-- <div id="particles-js"></div> -->
+
+<div id="aligner">
+  <div class="align-item">
+    <h1>NaveenSingh</h1>
   <h3>Web Developer</h3>
 </div>
 </div>
+

@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+
+import {MatMenuModule} from '@angular/material/menu';
+
 
 @Component({
   selector: 'app-menu',
@@ -8,6 +13,7 @@ import { Component, OnInit } from '@angular/core';
 export class MenuComponent implements OnInit {
 
   constructor() { }
+  showIcon : boolean = false;
 
   ngOnInit(): void {
   }
