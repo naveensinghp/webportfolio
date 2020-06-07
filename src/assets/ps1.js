@@ -62,7 +62,7 @@ window.particlesJS('particles-js', {
       "enable": true,
       "speed": 1.603412060865523,
       "direction": "none",
-      "random": false,
+      "random": true,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
@@ -81,7 +81,7 @@ window.particlesJS('particles-js', {
         "mode": "repulse"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "push"
       },
       "resize": true

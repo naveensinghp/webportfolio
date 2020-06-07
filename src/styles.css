@@ -9,7 +9,20 @@ body{
   overflow: hidden;
 }
 
+button:focus {
+  outline:none;
+  box-shadow: none;
+}
 
+.navbar-expand{
+  background-color: yellow;
+}
+.navbar {
+  background-color: yellow;
+}
+.navbar-light {
+  background-color: yellow;
+}
 :root {
   --gray0: #f8f8f8;
   --gray1: #dbe1e8;

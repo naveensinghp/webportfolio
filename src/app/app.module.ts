@@ -8,12 +8,19 @@ import {MatButtonModule} from '@angular/material/button';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
+import { FooterComponent } from './menu/menu.component';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomepageComponent } from './homepage/homepage.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    FooterComponent,
+    HomepageComponent,
+    BlogComponent
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA],
 

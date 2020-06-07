@@ -18,4 +18,19 @@ export class MenuComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
+
+}
+@Component({
+  selector: 'app-footer',
+  templateUrl: './footer.component.html',
+  styleUrls: ['./menu.component.css']
+})
+export class FooterComponent implements OnInit {
+
+  constructor() { }
+  showIcon : boolean = false;
+
+  ngOnInit(): void {
+  }
 }

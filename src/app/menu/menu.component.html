@@ -1,6 +1,10 @@
-<mat-card>
-
-  <div class="darkside">
+<!-- <mat-card>
+  <div class="d-flex flex-row">
+    <button mat-button>Basic</button>
+    <button mat-button>Servie</button>
+    
+  </div>
+  <div class="d-flex flex-row-reverse">
     <mat-icon *ngIf="!showIcon"
     id="dark"
     onclick="darkMode()"
@@ -13,16 +17,83 @@
   (click)="showIcon =! showIcon"
   >brightness_3</mat-icon>
   </div>
- 
+  
+  
+</mat-card>  -->
 
+<mat-card>
+  <ul>
+    <li><button  class="menucolor" routerLink="/" mat-button >Home</button>
+    </li>
+    <li class=""><button class="menucolor" mat-button >Skills</button>
+    </li>
+    <li class=""><button  class="menucolor" routerLinkActive ="{'active' : active =='/blog'}" routerLink="/blog" mat-button >Blog</button>
+    </li>
+    <li class=""><button  class="menucolor" mat-button >Contact</button>
+    </li>
+    <li style="float: right;">
+      <mat-icon *ngIf="!showIcon"
+        id="dark"
+        onclick="darkMode()"
+        (click)="showIcon =! showIcon"
+      >wb_sunny</mat-icon>
+      
+      <mat-icon *ngIf="showIcon"
+      id="light"
+      onclick="lightMode()"
+      (click)="showIcon =! showIcon"
+      >brightness_3</mat-icon>
+    </li>
+  </ul>
+  
 </mat-card>
+<!-- <div class="test">
+  <div class="ff">
+<nav style="height: 50px;"class="navbar navbar-expand-lg navbar-light bg-white shadow p-3 mb-5 bg-white rounded">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#">#</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <button style="color: #3e4651;font-family:Nunito Sans;" mat-button >Home</button>
+      </li>
+      <li class="nav-item">
+        <button style="color: #3e4651;font-family:Nunito Sans;" mat-button >SKills</button>
+      </li>
+      <li class="nav-item">
+        <button style="color: #3e4651;font-family:Nunito Sans;" mat-button >What I Do</button>
+      </li>
+      <li class="nav-item">
+        <button style="color: #3e4651;font-family:Nunito Sans;" mat-button >Contact</button>
+      </li>
+    </ul>
+    <mat-icon *ngIf="!showIcon"
+    id="dark"
+    onclick="darkMode()"
+    (click)="showIcon =! showIcon"
+  >wb_sunny</mat-icon>
+  
+  <mat-icon *ngIf="showIcon"
+  id="light"
+  onclick="lightMode()"
+  (click)="showIcon =! showIcon"
+  >brightness_3
+</mat-icon>
+  </div>
+</nav>
+</div>
+</div>
+<br/> -->
+<!--Navbar -->
 
 <!-- <div id="particles-js"></div> -->
-
+<!-- 
 <div id="aligner">
   <div class="align-item">
     <h1>NaveenSingh</h1>
   <h3>Web Developer</h3>
 </div>
-</div>
-
+</div> -->
+<!-- <app-footer></app-footer> -->
