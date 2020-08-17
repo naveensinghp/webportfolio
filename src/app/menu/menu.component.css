@@ -1,3 +1,7 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
 .aligner {
   display: flex;
   align-items: center;
@@ -13,13 +17,29 @@
   justify-content: flex-end;
 }
 .active{
-  color: black;
-  background-color: #e0e0e0;
+  border-bottom: 3px solid #45bebf;
+
+
 }
+mat-toolbar{
+  background: var(--bg);
+  color: var(--text);
+  padding: 14px 16px;
+
+}
+.menu-toggle{
+  font-size: 24px;
+  line-height: 50px;
+  cursor: pointer;
+  display: none;
+  float: right;
+}
+
+
 mat-card{
   width: 100%;
   height: 70px;
-  background: var(--bg);
+
 }
 mat-icon{
   color: var(--text);
@@ -31,34 +51,7 @@ button{
   background: var(--bg);
   color: var(--text);
 }
-ul {
-  list-style-type: none;
-  font-family:Nunito Sans;
-  margin: 0;
-  padding: 0;
-  color: var(--text);
-  overflow: hidden;
-  
-}
 
-li {
-  float: left;
-  
-}
-
-li a {
-  
-  display: block;
-  color: var(--text);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  color: black;
-  background: var(--bg);
-}
 /* .menucolor {
   color: var(--text);
   font-family:Nunito Sans;

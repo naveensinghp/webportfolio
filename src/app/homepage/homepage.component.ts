@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {TooltipPosition} from '@angular/material/tooltip';
+
 
 @Component({
   selector: 'app-homepage',
@@ -6,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent implements OnInit {
-
+  position: TooltipPosition = 'below';
+  
   constructor() { }
 
   ngOnInit(): void {

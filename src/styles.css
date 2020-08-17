@@ -5,8 +5,15 @@ body{
   padding: 0;
   color: var(--text);
   background: var(--bg);
-  font-family:Nunito Sans;
+  font-family: google-sans;
   overflow: hidden;
+}
+.tns{
+  color: var(--text);
+}
+@font-face {
+    font-family: google-sans;
+    src: url(/assets/font/GoogleSans-Regular.ttf);
 }
 
 button:focus {
@@ -24,6 +31,7 @@ button:focus {
   background-color: yellow;
 }
 :root {
+  --test0: #4e4e4e;
   --gray0: #f8f8f8;
   --gray1: #dbe1e8;
   --gray2: #b2becd;
@@ -38,7 +46,7 @@ button:focus {
 
 .light {
   --bg: var(--gray0);
-  --text: var(--gray6);
+  --text: var(--test0);
 
 }
 

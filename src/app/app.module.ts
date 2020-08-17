@@ -4,6 +4,8 @@ import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
+import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatTabsModule} from '@angular/material/tabs';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +15,8 @@ import { FooterComponent } from './menu/menu.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomepageComponent } from './homepage/homepage.component';
 import { BlogComponent } from './blog/blog.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+
 
 @NgModule({
   declarations: [
@@ -27,8 +31,11 @@ import { BlogComponent } from './blog/blog.component';
   imports: [
     BrowserModule,
     MatCardModule,
+    MatTabsModule,
     MatIconModule,
     MatMenuModule,
+    MatToolbarModule,
+    MatTooltipModule,
     MatButtonModule,
     AppRoutingModule,
     BrowserAnimationsModule
