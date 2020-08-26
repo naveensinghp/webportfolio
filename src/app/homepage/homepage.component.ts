@@ -10,7 +10,7 @@ import { PickerModule } from '@ctrl/ngx-emoji-mart';
 })
 export class HomepageComponent implements OnInit {
   position: TooltipPosition = 'below';
-  
+
   constructor() { }
 
   ngOnInit(): void {

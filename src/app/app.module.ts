@@ -16,6 +16,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomepageComponent } from './homepage/homepage.component';
 import { BlogComponent } from './blog/blog.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { SkillsComponent } from './skills/skills.component';
+import { NgxSkillBarModule } from "ngx-skill-bar";
+
 
 
 
@@ -25,7 +28,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MenuComponent,
     FooterComponent,
     HomepageComponent,
-    BlogComponent
+    BlogComponent,
+    SkillsComponent
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA],
 
@@ -37,6 +41,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatMenuModule,
     MatToolbarModule,
     MatTooltipModule,
+    NgxSkillBarModule,
     MatButtonModule,
     AppRoutingModule,
     BrowserAnimationsModule
