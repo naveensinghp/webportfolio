@@ -1,16 +1,38 @@
 <app-menu></app-menu>
 
-<p style="padding:10px;font-size:38px;">skills works!</p>
+<p style="font-family: google-sans;padding:50px;font-size:38px;">Skills</p>
+<!-- 
+<div style="padding: 60px; width: 100%;">
+    <table border="1">
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+    
+      </table>
+</div> -->
 
-<div style="font-size: large;"> 
-    <ngx-skill-bar percentage="50"></ngx-skill-bar>
+  
+<div style="padding: 60px; width: 100%;"> 
+    <div style="font-family: google-sans;font-size: 20px;">
+        <p>HTML</p>
+        <ngx-skill-bar showFigures="true" percentage="50" numberOfBars="8" bgColor="rgba(162, 161, 161, 1)" color="#25c4d4"></ngx-skill-bar><br>
+        <div>
+            <p>CSS</p>
+            <ngx-skill-bar showFigures="true" percentage="40" numberOfBars="7" bgColor="rgba(162, 161, 161, 1)" color="#25c4d4"></ngx-skill-bar>
+        </div><br/>
+        <div>
+            <p>JavaScript</p>
+            <ngx-skill-bar showFigures="true" percentage="30" numberOfBars="6" bgColor="rgba(162, 161, 161, 1)" color="#25c4d4"></ngx-skill-bar>
+        </div><br/>
+        <div>
+            <p>Angular</p>
+            <ngx-skill-bar showFigures="true" percentage="30" numberOfBars="7" bgColor="rgba(162, 161, 161, 1)" color="#25c4d4"></ngx-skill-bar>
+        </div>
+        
+    </div>
 </div>
 
 
 
-<div>Basic usage, different percentages</div>
-    
-    <ngx-skill-bar percentage="75"></ngx-skill-bar>
-    <ngx-skill-bar percentage="80"></ngx-skill-bar>
-    <ngx-skill-bar percentage="60"></ngx-skill-bar>
-    <ngx-skill-bar percentage="30"></ngx-skill-bar>
