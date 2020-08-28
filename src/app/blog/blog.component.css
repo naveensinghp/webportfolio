@@ -1,0 +1,47 @@
+.sideicon{
+    color: var(--text);
+    font-size: 20px;
+}
+
+.sidetext{
+    color: var(--text);
+    font-family: google-sans;
+    font-size: 18px;
+}
+
+.gametitle{
+    color: var(--text);
+    font-family: google-sans;
+    font-size: 20px;
+
+}
+.playedon{
+    padding: 10px;
+    color: var(--text);
+    font-family: google-sans;
+    font-size: 15px;
+}
+
+.test{
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+   
+}
+
+.example-container {
+    height: 400px;
+    color: var(--text);
+    overflow: auto;
+    background: var(--bg);
+
+  }
+  
+  table {
+    color: var(--text);
+    width: 100%;
+    background: var(--bg);
+
+  }

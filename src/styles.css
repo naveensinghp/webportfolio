@@ -8,7 +8,6 @@ body{
   color: var(--text);
   background: var(--bg);
   font-family: google-sans;
-  overflow: hidden;
 }
 .tns{
   color: var(--text);
